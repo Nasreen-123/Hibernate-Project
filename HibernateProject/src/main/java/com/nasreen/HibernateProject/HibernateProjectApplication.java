@@ -20,7 +20,7 @@ public class HibernateProjectApplication {
 		bean.insert(new Person("Afreen",22,"tester",20000));
 		bean.insert(new Person("Bhanu",23,"Dev",25000));
 		bean.update(new Person(2,"Afreen",22,"tester",30000));
-		//bean.delete(2);
+		bean.delete(2);
 	}
 
 }
